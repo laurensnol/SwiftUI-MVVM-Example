@@ -24,13 +24,13 @@ struct CollectionDetailView: View {
             Section(header: HStack {
                 Text("\(self.viewModel.items.count) Items")
                 Spacer()
-                NavigationLink(destination: Text("Add Item")) {
+                NavigationLink(destination: ItemDetailView(appendingTo: self.$viewModel.items)) {
                     Text("Add")
                         .foregroundColor(.accentColor)
                 }
             }) {
                 ForEach(self.viewModel.items) { item in
-                    NavigationLink(destination: Text(item.name)) {
+                    NavigationLink(destination: ItemDetailView(with: item)) {
                         Text(item.name)
                     }
                 }
@@ -41,6 +41,13 @@ struct CollectionDetailView: View {
                 }
             }
         }
+        .navigationTitle("Collection")
+        .navigationBarItems(trailing: Button(action: {
+            viewModel.save()
+            self.presentationMode.wrappedValue.dismiss()
+        }, label: {
+            Text("Done")
+        }))
     }
 }
 
