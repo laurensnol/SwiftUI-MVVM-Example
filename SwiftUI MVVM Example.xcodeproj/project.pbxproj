@@ -20,6 +20,7 @@
 		9E50F1382539E1C800DB4EFC /* CollectionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50F1372539E1C800DB4EFC /* CollectionDetailViewModel.swift */; };
 		9E50F13F2539E95D00DB4EFC /* CollectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50F13E2539E95D00DB4EFC /* CollectionDetailView.swift */; };
 		9E50F1422539EAAE00DB4EFC /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50F1412539EAAE00DB4EFC /* ItemDetailViewModel.swift */; };
+		9E50F1452539EF7900DB4EFC /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50F1442539EF7900DB4EFC /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9E50F1372539E1C800DB4EFC /* CollectionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailViewModel.swift; sourceTree = "<group>"; };
 		9E50F13E2539E95D00DB4EFC /* CollectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailView.swift; sourceTree = "<group>"; };
 		9E50F1412539EAAE00DB4EFC /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
+		9E50F1442539EF7900DB4EFC /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				9E2D3A7F2539D3E4008364F3 /* ContentView.swift */,
 				9E50F13E2539E95D00DB4EFC /* CollectionDetailView.swift */,
+				9E50F1442539EF7900DB4EFC /* ItemDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E50F1452539EF7900DB4EFC /* ItemDetailView.swift in Sources */,
 				9E50F1422539EAAE00DB4EFC /* ItemDetailViewModel.swift in Sources */,
 				9E50F1382539E1C800DB4EFC /* CollectionDetailViewModel.swift in Sources */,
 				9E2D3A9C2539D68D008364F3 /* Collection+CoreDataClass.swift in Sources */,
