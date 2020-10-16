@@ -56,8 +56,10 @@
 		9E2D3A7C2539D3E4008364F3 /* SwiftUI MVVM Example */ = {
 			isa = PBXGroup;
 			children = (
+				9E2D3A952539D4C0008364F3 /* Models */,
+				9E2D3A942539D4BC008364F3 /* Views */,
+				9E2D3A922539D4B1008364F3 /* ViewModels */,
 				9E2D3A7D2539D3E4008364F3 /* SwiftUI_MVVM_ExampleApp.swift */,
-				9E2D3A7F2539D3E4008364F3 /* ContentView.swift */,
 				9E2D3A812539D3E5008364F3 /* Assets.xcassets */,
 				9E2D3A862539D3E5008364F3 /* Persistence.swift */,
 				9E2D3A8B2539D3E5008364F3 /* Info.plist */,
@@ -73,6 +75,28 @@
 				9E2D3A842539D3E5008364F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E2D3A922539D4B1008364F3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9E2D3A942539D4BC008364F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D3A7F2539D3E4008364F3 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E2D3A952539D4C0008364F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
