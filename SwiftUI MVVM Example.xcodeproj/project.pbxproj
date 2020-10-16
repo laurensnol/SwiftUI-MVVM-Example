@@ -17,6 +17,7 @@
 		9E2D3A9D2539D68D008364F3 /* Collection+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D3A992539D68D008364F3 /* Collection+CoreDataProperties.swift */; };
 		9E2D3A9E2539D68D008364F3 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D3A9A2539D68D008364F3 /* Item+CoreDataClass.swift */; };
 		9E2D3A9F2539D68D008364F3 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D3A9B2539D68D008364F3 /* Item+CoreDataProperties.swift */; };
+		9E50F1382539E1C800DB4EFC /* CollectionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50F1372539E1C800DB4EFC /* CollectionDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9E2D3A992539D68D008364F3 /* Collection+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9E2D3A9A2539D68D008364F3 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9E2D3A9B2539D68D008364F3 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9E50F1372539E1C800DB4EFC /* CollectionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		9E2D3A922539D4B1008364F3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9E50F1372539E1C800DB4EFC /* CollectionDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E50F1382539E1C800DB4EFC /* CollectionDetailViewModel.swift in Sources */,
 				9E2D3A9C2539D68D008364F3 /* Collection+CoreDataClass.swift in Sources */,
 				9E2D3A8A2539D3E5008364F3 /* SwiftUI_MVVM_Example.xcdatamodeld in Sources */,
 				9E2D3A9F2539D68D008364F3 /* Item+CoreDataProperties.swift in Sources */,
