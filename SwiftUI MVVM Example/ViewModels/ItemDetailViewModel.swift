@@ -14,15 +14,15 @@ class ItemDetailViewModel: ObservableObject {
     
     @Published var name = ""
     
-    @Binding private var collectionDetailViewModel: CollectionDetailViewModel?
+    @Binding private var itemsToAppend: [Item]
     private var item: Item?
     
-    init(appendingTo viewModel: Binding<CollectionDetailViewModel?>) {
-        self._collectionDetailViewModel = viewModel
+    init(appendingTo viewModel: Binding<[Item]>) {
+        self._itemsToAppend = viewModel
     }
     
     init(with item: Item) {
-        self._collectionDetailViewModel = .constant(nil)
+        self._itemsToAppend = .constant([])
         self.item = item
         self.name = item.name
     }
@@ -48,7 +48,7 @@ class ItemDetailViewModel: ObservableObject {
             let item = Item(context: self.context)
             item.id = UUID()
             item.name = self.name
-            self.collectionDetailViewModel?.items.append(item)
+            self.itemsToAppend.append(item)
             
             do {
                 try self.context.save()
