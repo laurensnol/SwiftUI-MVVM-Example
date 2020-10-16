@@ -18,6 +18,7 @@
 		9E2D3A9E2539D68D008364F3 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D3A9A2539D68D008364F3 /* Item+CoreDataClass.swift */; };
 		9E2D3A9F2539D68D008364F3 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D3A9B2539D68D008364F3 /* Item+CoreDataProperties.swift */; };
 		9E50F1382539E1C800DB4EFC /* CollectionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50F1372539E1C800DB4EFC /* CollectionDetailViewModel.swift */; };
+		9E50F13F2539E95D00DB4EFC /* CollectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50F13E2539E95D00DB4EFC /* CollectionDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9E2D3A9A2539D68D008364F3 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9E2D3A9B2539D68D008364F3 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9E50F1372539E1C800DB4EFC /* CollectionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailViewModel.swift; sourceTree = "<group>"; };
+		9E50F13E2539E95D00DB4EFC /* CollectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				9E2D3A7F2539D3E4008364F3 /* ContentView.swift */,
+				9E50F13E2539E95D00DB4EFC /* CollectionDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				9E2D3A802539D3E4008364F3 /* ContentView.swift in Sources */,
 				9E2D3A7E2539D3E4008364F3 /* SwiftUI_MVVM_ExampleApp.swift in Sources */,
 				9E2D3A9E2539D68D008364F3 /* Item+CoreDataClass.swift in Sources */,
+				9E50F13F2539E95D00DB4EFC /* CollectionDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
